@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #e30613;
+  padding: 20px;
+  color: white;
+}
+
+.club-badge {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.book-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.book-card {
+  background-color: #ffffff;
+  border: 2px solid #e30613;
+  border-radius: 10px;
+  width: 200px;
+  margin: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.book-card:hover {
+  transform: scale(1.05);
+}
+
+.book-photo {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.book-card h2 {
+  font-size: 1.5em;
+  margin: 10px 0 10px 0;
+}
+
+.book-card p {
+  font-size: 1em;
+  margin: 5px 0;
+}
+
+.old-price .price-number {
+  text-decoration: line-through;
+  filter: blur(0.5px);
+}
+
+.new-price {
+  font-size: 1.5em;
+  color: #e30613;
+}
+
+.star-rating {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.star-rating .fa-star {
+  color: #ffd700; /* Gold color for the stars */
+  margin: 0 2px;
+  font-size: 1.5em;
+}

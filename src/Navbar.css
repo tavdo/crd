@@ -1,0 +1,108 @@
+.navbar {
+    background-color: #333; /* Dark background color */
+    color: white;
+    display: flex;
+    justify-content: center; /* Center navbar items */
+    align-items: center;
+    padding: 10px 20px; /* Slightly increased padding for better spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    position: sticky; /* Make navbar stick to the top */
+    top: 0;
+    z-index: 1000;
+    animation: slideDown 0.5s ease-in-out; /* Slide down animation */
+  }
+  
+  @keyframes slideDown {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  .navbar-logo {
+    font-size: 1.2em; /* Slightly smaller font size */
+    font-weight: bold;
+    color: #e30613; /* Change logo text color to match primary theme color */
+    margin-right: auto; /* Push logo to the left */
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Maintain gap between links */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .navbar-links li {
+    display: inline;
+  }
+  
+  .navbar-links a {
+    color: white; /* White color for links */
+    text-decoration: none;
+    font-size: 0.9em; /* Smaller font size */
+    transition: color 0.3s, transform 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .navbar-links a:hover {
+    color: #e30613; /* Change link color on hover */
+    transform: scale(1.1); /* Slightly enlarge link on hover */
+  }
+a.navbar {
+    background-color: #333; /* Dark background color */
+    color: white;
+    display: flex;
+    justify-content: space-between; /* Space between logo and links */
+    align-items: center;
+    padding: 10px 20px; /* Slightly increased padding for better spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    position: sticky; /* Make navbar stick to the top */
+    top: 0;
+    z-index: 1000;
+    animation: slideDown 0.5s ease-in-out; /* Slide down animation */
+  }
+  
+  @keyframes slideDown {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  .navbar-logo {
+    font-size: 1.2em; /* Slightly smaller font size */
+    font-weight: bold;
+    color: #e30613; /* Change logo text color to match primary theme color */
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Maintain gap between links */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    flex-grow: 1; /* Allow links to grow */
+    justify-content: center; /* Center the links */
+  }
+  
+  .navbar-links li {
+    display: inline;
+  }
+  
+  .navbar-links a {
+    color: white; /* White color for links */
+    text-decoration: none;
+    font-size: 0.9em; /* Smaller font size */
+    transition: color 0.3s, transform 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .navbar-links a:hover {
+    color: #e30613; /* Change link color on hover */
+    transform: scale(1.1); /* Slightly enlarge link on hover */
+  }
+    
